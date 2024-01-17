@@ -1,0 +1,144 @@
+body {
+   margin: 0px;
+   background: url('imgs/bt.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: Montserrat;
+}
+
+nav li  {
+   display: flex;
+   display: inline;
+}
+
+.nav {
+   padding: 20px;
+   margin: 5px auto;
+   flex-wrap: wrap;
+   word-spacing: 1.5em;
+   text-align: center;
+   line-height: 2em;
+}
+
+header {
+   background: url('imgs/header.png');
+   padding: 20px;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.pfp {
+   border-radius: 50px;
+   width: 150px;
+   border: 2px solid white;
+}
+
+nav li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 15pt;
+}
+
+.wrapper {
+   padding: 10px;
+   display: flex;
+}
+
+.name {
+   font-size: 30pt;
+}
+
+strong {
+   color: red;
+}
+
+@media(min-width: 768px){
+   .name {
+      text-align: center;
+      padding: 20px;
+      font-size: 45pt;
+   }
+   
+   main {
+      vertical-align: middle;
+   }
+   
+   strong {
+      color: orangered;
+   }
+   
+   .wrapper2 {
+      display: flex;
+   }  
+   
+   .Contact {
+      line-height: 3.5em;
+      text-align: center;
+      vertical-align: middle;
+   }
+   
+   main p {
+      font-size: 20pt;
+   } 
+   
+   .ignore {
+      display: flex;
+      flex-flow: column;
+   }
+   
+   .ign {
+      vertical-align: middle;
+   }
+}
+
+main {
+   margin: 10px;
+   background-color: rgba(255, 255, 255, 0.8);
+   color: black;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+.Contact {
+   border-radius: 20px;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.8);
+   color: black;
+   word-spacing: 1.5em;
+}
+
+.Contact li a {
+   padding: 5px;
+   border: 1px solid black;
+   text-decoration: none;
+   font-size: 15pt;
+   color: black;
+   font-weight: bold;
+   transition: 0.3s ease;
+   border-radius: 10px;
+}
+
+.Contact li a:hover {
+   background: black;
+   color: white;
+}
+
+.Contact li {
+   display: inline;
+}
+
+.Skills {
+   border-radius: 20px;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.8);
+   color: black;
+   word-spacing: 1.5em;
+}

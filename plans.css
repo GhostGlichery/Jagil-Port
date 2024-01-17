@@ -1,0 +1,78 @@
+body {
+   margin: 0px;
+   color: black;
+   background: black;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: Montserrat;
+}
+
+header {
+   padding: 20px;
+   background: black;
+   color: white;
+}
+
+.plan1 {
+   background: gray;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.plan2 {
+   background: gray;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.plan3 {
+   background: gray;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.plan4 {
+   background: gray;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+strong {
+   color:  Red;
+}
+
+@media(min-width: 768px){
+   main {
+      display: flex;
+      flex-flow: row;
+   }
+   
+   .cont1 {
+      padding: 5px;
+   }
+   
+   .cont2 {
+      padding: 5px;
+   }
+   
+   .cont1, .cont2 {
+      flex: 1;
+   }
+   
+   body {
+   background: url('imgs/bt.jpeg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   }
+
+   header {
+      background: rgba(255,255,255,0.3);
+      backdrop-filter: blur(2px);
+   }
+}
